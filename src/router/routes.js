@@ -2,6 +2,7 @@ import HomeView from '@/views/HomeView.vue'
 import JobsView from '@/views/JobsView.vue'
 import NotFound from '@/views/NotFound.vue'
 import JobView from '@/views/JobView.vue'
+import AddJobView from '@/views/AddJobView.vue'
 
 const route = (path, name, component) => {
   return {
@@ -15,6 +16,7 @@ let routes = [
   route('/', 'home', HomeView),
   route('/jobs', 'jobs', JobsView),
   route('/job/:id', 'job', JobView),
+  route('/add-job', 'Add-job', AddJobView),
 ]
 
 routes.push(route('/:catchAll(.*)', 'Not Found', NotFound))
