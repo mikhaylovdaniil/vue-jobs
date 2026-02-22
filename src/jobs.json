@@ -85,18 +85,18 @@
       }
     },
     {
-      "id": "4641",
-      "type": "Full-Time",
-      "title": "Full stack developer",
-      "description": "fdsoiadfjkf",
-      "salary": "$60K - $70K",
-      "location": "Moscow",
+      "type": "Part-Time",
+      "title": "Full stack developer2",
+      "description": "fdsoiadfjkf2",
+      "salary": "Over $200K",
+      "location": "Moscow2",
       "company": {
-        "name": "Moscow bear",
-        "description": "saddasd",
+        "name": "Moscow bear2",
+        "description": "saddasd22",
         "contactEmail": "dsadsa@gbmail.com",
-        "contactPhone": "adsdasd+321321"
-      }
+        "contactPhone": "adsdasd+3213212"
+      },
+      "id": "4641"
     }
   ]
 }
